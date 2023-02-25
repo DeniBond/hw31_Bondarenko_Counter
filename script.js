@@ -56,7 +56,7 @@ class AdvancedCounter extends React.Component{
 
     }
 
-    incCount = (event) => {
+    incCount = () => {
         if (this.state.count < this.props.maxVal) {          //max value
             const tempState = {...this.state}
             tempState.count = ++this.state.count
